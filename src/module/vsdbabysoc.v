@@ -30,7 +30,7 @@ module vsdbabysoc (
    );
 
    avsddac dac (
-      .OUT(OUT),
+     .OUT(OUT),
       .D(RV_TO_DAC),
       // .VREFL(VREFL),
       .VREFH(VREFH)
